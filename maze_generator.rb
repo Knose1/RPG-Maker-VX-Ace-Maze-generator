@@ -98,7 +98,7 @@ class Maze
   #   When we do @mapListAlias[startType] we must find a map type
   #=============================================================================
   
-  def generate_maze(max,startCoordinates,startType)
+  def generate_maze(max,startCoordinates,startType,doTeleport = true)
   
   # maze generation
   @mazeAlias = []
@@ -149,12 +149,12 @@ class Maze
   
   #----
   
-  #On génère la map tant qu'il n'y a pas de fin de dongeon ou jusqu'à ce que 30 boucles soient faites
+  #On génère la map tant qu'il n'y a pas de fin de dongeon ou jusqu'à ce que 2 boucles soient faites
   
   haveEnd = false
   loopCount = 0
   
-  while (!haveEnd or loopCount < 1)
+  while (!haveEnd or loopCount < 2)
     loopCount += 1
       
     #----
@@ -295,9 +295,9 @@ class Maze
         # Switch End Area
           $game_switches[4] = false
           
-    
-    teleport_hero(@mapListAlias[startType]["id"],startCoordinates["x"],startCoordinates["y"])
-          
+    if (doTeleport == true)
+      teleport_hero(@mapListAlias[startType]["id"],startCoordinates["x"],startCoordinates["y"])
+    end    
     return
   end
   
