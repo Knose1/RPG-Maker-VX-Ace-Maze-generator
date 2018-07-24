@@ -17,7 +17,7 @@ Une description claire et concise du problème.
 **Pouvez-vous joindre une partie de votre code ?**
 Joindre l'entièreté ou une partie de votre code nous permettra de mieux comprendre le problème.
 ```Ruby
-"Joignez ici votre code Ruby"
+"Collez ici votre code Ruby"
 ```
 
 **Avez-vous testé votre code sur [repl.it](https://repl.it/repls/KnottyMountainousNumbers) ?**
