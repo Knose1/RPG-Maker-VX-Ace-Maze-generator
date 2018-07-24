@@ -14,15 +14,15 @@ about: If you need help with your own code
 **Describe your problem**  
 A clear and concise description of what the problem is.  
 
-**Can you paste a part of your code ?**
+**Can you paste a part of your code ?**  
 Pasting the whole or a part of your code help us to see the problem in your code.
 ```ruby
 "Paste your ruby code here"
 ```
 
-**Did you try your code on [repl.it](https://repl.it/repls/KnottyMountainousNumbers) ?**
-(Before testing the code you must set all the RPG Maker VX Ace library as a comment to avoid bug where there aren't)
+**Did you try your code on [repl.it](https://repl.it/repls/KnottyMountainousNumbers) ?**  
+(Before testing the code you must set all the RPG Maker VX Ace library as a comment to avoid bug where there aren't)  
 This question is not required but please if you did it can you add a screen of the result (inside the console at right) also don't forget to add the random maze generator's script (else you'll get incomprehensible errors).
 
-**Additional context**
+**Additional context**  
 Add any other context or screenshots about the feature request here.
