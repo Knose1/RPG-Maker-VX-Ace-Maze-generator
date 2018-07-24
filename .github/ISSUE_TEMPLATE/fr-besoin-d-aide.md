@@ -21,7 +21,7 @@ Joindre une partie ou l'entièreté de votre code nous permettra de mieux compre
 ```
 
 **Avez-vous testé votre code sur [repl.it](https://repl.it/repls/KnottyMountainousNumbers) ?**  
-(Avant de tester votre code sur le site, vous devez mettre tous les codes de la librairie RPG Maker VX Ace en commentaire pour éviter les bugs inutiles)
+(Avant de tester votre code sur le site, vous devez mettre tous les codes de la librairie RPG Maker VX Ace en commentaire pour éviter les bugs inutiles)  
 Ceci n'est pas nécessaire mais si vous l'avez fait, merci de joindre une capture d'écran du résultat (sur la console à droite) n'oubliez pas non plus d'y ajouter le script du générateur de labyrinthe aléatoire (dans le cas contraire, vous risquerez d'obtenir des erreurs incompréhensibles).
 
 **Informations supplémentaires**  
