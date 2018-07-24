@@ -14,10 +14,10 @@ about: If you need help with your own code
 **Describe your problem**  
 A clear and concise description of what the problem is.  
 
-**Can you past a part of your code ?**
+**Can you paste a part of your code ?**
 Pasting the whole or a part of your code help us to see the problem in your code.
 ```ruby
-"Past your ruby code here"
+"Paste your ruby code here"
 ```
 
 **Did you try your code on [repl.it](https://repl.it/repls/KnottyMountainousNumbers) ?**
