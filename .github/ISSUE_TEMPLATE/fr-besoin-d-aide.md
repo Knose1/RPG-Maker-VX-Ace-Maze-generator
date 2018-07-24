@@ -14,8 +14,8 @@ about: Si vous avez besoin d'aide avec votre propre code
 **Décrivez votre problème**  
 Une description claire et concise du problème.  
 
-**Pouvez-vous joindre une partie de votre code ?**
-Joindre l'entièreté ou une partie de votre code nous permettra de mieux comprendre le problème.
+**Pouvez-vous joindre une partie de votre code ?**  
+Joindre une partie ou l'entièreté de votre code nous permettra de mieux comprendre le problème.
 ```Ruby
 "Collez ici votre code Ruby"
 ```
