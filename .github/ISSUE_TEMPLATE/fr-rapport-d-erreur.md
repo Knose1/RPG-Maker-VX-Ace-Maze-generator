@@ -22,7 +22,7 @@ Si possible, ajoutez des captures d'écran pour aider à expliquer votre problè
 
 **Ordinateur (remplissez les informations suivantes):**  
  - OS: [e.g. iOS]
- - Version du projet [e.g. v0.1.0]
+ - Version du générateur [e.g. v0.1.0]
 
 **Smartphone (remplissez les informations suivantes):**  
  - Appareil: [e.g. iPhone6]
