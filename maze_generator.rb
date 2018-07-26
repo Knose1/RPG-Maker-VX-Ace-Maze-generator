@@ -1,8 +1,9 @@
-def teleport_hero(map_id, x=0, y=0, dir=0, fondue=0)
+#From Command 201
+def teleport_hero(map_id, x=0, y=0, dir=0, fade=0)
   return if $game_party.in_battle
   
   $game_player.reserve_transfer(map_id, x, y, dir)
-  $game_temp.fade_type = fondue
+  $game_temp.fade_type = fade
   Fiber.yield while $game_player.transfer?
   
 end
@@ -96,9 +97,20 @@ class Maze
   #
   # * startType: the id inside @mapListAlias.
   #   When we do @mapListAlias[startType] we must find a map type
+  #
+  # * events is used to add datas to one or more areas, a filter can be applied
+  # map types to add the event(s) to specific map type. 
+  #     
+  #     The filter is a string or an array of string.
+  #   Use "filter"=>* if you don't wants to apply filter.
+  #   [
+  #     {
+  #       "filter"=>filter
+  #       "count"
+  #     }
   #=============================================================================
   
-  def generate_maze(max,startCoordinates,startType,doTeleport = true)
+  def generate_maze(max,startCoordinates,startType,doTeleport = true,events)
   
   # maze generation
   @mazeAlias = []
