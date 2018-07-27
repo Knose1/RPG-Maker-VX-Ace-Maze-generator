@@ -413,4 +413,8 @@ class Maze
   def maze_exit_id
     return @mazeExitIdAlias || -1
   end
+  
+  def events
+    return @events
+  end
 end
