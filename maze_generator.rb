@@ -99,15 +99,30 @@ class Maze
   #   When we do @mapListAlias[startType] we must find a map type
   #
   # * events is used to add datas to one or more areas, a filter can be applied
-  # map types to add the event(s) to specific map type. 
+  # on map types to add the event(s) on a random area matching the filter. For example the event
+  # Exit (can't be removed) search for the property mazeEnd
   #     
-  #     The filter is a string or an array of string.
-  #   Use "filter"=>* if you don't wants to apply filter.
+  #    - The filter is an array of string. Each string is a property
+  # of the map type: if you setup for example "filter"=>["!mazeEnd"] it will find all
+  # maze with mazeEnd == false or mazeEnd == nil
+  #   Use "filter"=>"*" if you don't wants to apply a filter.
+  #
+  #    - Count: how many must be filtered
+  #    - required: does the maze absolutely need it ?
+  #
   #   [
   #     {
-  #       "filter"=>filter
-  #       "count"
+  #       "filter"=>filter,
+  #       "count"=>Number,
+  #       "required"=>Boolean,
+  #     },
+  #     {
+  #       "filter"=>filter2,
+  #       "count"=>Number2,
+  #       "required"=>Boolean2,
   #     }
+  #     Add More if needed
+  #   ]
   #=============================================================================
   
   def generate_maze(max,startCoordinates,startType,doTeleport = true,events)
