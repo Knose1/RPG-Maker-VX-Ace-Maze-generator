@@ -101,7 +101,7 @@ class Maze
   # * events is used to add datas to one or more areas, a filter can be applied
   # on map types to add the event(s) on a random area matching the filter. For example the event
   # Exit (can't be removed) search for the property mazeEnd
-  #     
+  #
   #    - The filter is an array of string. Each string is a property
   # of the map type: if you setup for example "filter"=>["!mazeEnd"] it will find all
   # maze with mazeEnd == false or mazeEnd == nil
@@ -125,7 +125,7 @@ class Maze
   #   ]
   #=============================================================================
   
-  def generate_maze(max,startCoordinates,startType,doTeleport = true,events)
+  def generate_maze(max,startCoordinates,startType,doTeleport = true,events=nil)
   
   # maze generation
   @mazeAlias = []
